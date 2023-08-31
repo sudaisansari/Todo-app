@@ -24,6 +24,7 @@ const getData = async () => {
     return result
   } catch (error) {
     console.log(error)
+    throw error
   }
 }
 
@@ -41,7 +42,7 @@ const TodoList = async () => {
               {/* circle */}
               <div className="bg-secondary rounded-full h-3 w-3"></div>
               {/* Text Title*/}
-              <p className="text-lg font-medium">{item.task}</p>              
+              <p className="text-lg font-medium">{item.task}</p>          
             </div>
            )
          })

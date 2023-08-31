@@ -10,7 +10,7 @@ export default function Home() {
         {/* TodoList */}
         {/* ts ignore command will remove error because of async function of todoList but noe it will remove error */}
         {/* @ts-ignore */} 
-        <TodoList />
+        <TodoList />    
         {/* AddTodo  */}
         <AddTodo />
         {/* Bar */}
